@@ -30,6 +30,6 @@ if __name__ == '__main__':
     host_ip = '0.0.0.0'
     remote_path = opt.remote_dir
     local_path = opt.local_dir
-    username = 'root'
-    password = 'djycyy'
+    username = '321'
+    password = '123'
     remote_scp(host_ip, remote_path, local_path, username, password)
