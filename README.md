@@ -6,6 +6,7 @@ server端
 * 服务器端开启一个端口的监听，接收客户端发出的参数请求
 
 start.sh
+
 server.py
 
 client端
@@ -14,6 +15,8 @@ client端
 * 将风格转换好的图片下载到本地
 
 upload.py
+
 client_sendmsg.py
+
 download.py
 
