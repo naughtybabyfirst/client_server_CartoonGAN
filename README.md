@@ -1,0 +1,2 @@
+# client_server_CartoonGAN
+Python客户端调用服务器端的CartoonGAN程序 生成相应风格图片 再下载到本地
