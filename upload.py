@@ -24,6 +24,9 @@ def upload(local_dir, remote_dir):
 
         # 遍历文件夹
         for root, dirs, files in os.walk(local_dir):
+            # root : path of root
+            # dirs : the folder in the root
+            # files: the files in the root
             # print('[%s][%s][%s]' % (root, dirs, files))
             for filespath in files:
                 local_file = os.path.join(root, filespath)
@@ -54,8 +57,7 @@ def upload(local_dir, remote_dir):
         print('upload file success %s ' % datetime.datetime.now())
         t.close()
     except Exception as e:
-        print(88, e)
-
+        print(8, e)
 
 if __name__ == '__main__':
     local_dir = opt.local_dir
